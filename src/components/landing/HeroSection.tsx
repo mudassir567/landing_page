@@ -18,7 +18,7 @@ const HeroSection = () => {
             {/* Coming Soon Banner */}
             <div className="inline-flex items-center gap-2 bg-primary-glow/10 border border-primary/20 rounded-full px-4 py-2 text-sm font-medium text-primary animate-pulse-glow">
               <div className="w-2 h-2 bg-primary rounded-full animate-ping"></div>
-              Coming Soon - App in Development
+              Coming Soon...
             </div>
             
             <div className="space-y-4">
