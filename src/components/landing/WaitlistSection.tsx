@@ -22,7 +22,7 @@ const WaitlistSection = () => {
         <div className="max-w-4xl mx-auto">
           <Card className="p-8 bg-gradient-card border-0 shadow-elegant">
             <iframe 
-              src="https://waitfast.netlify.app/embed/waitlist/2b2dc1f9-e05c-41d0-b49e-9c4510180071?theme=light&size=md"
+              src="https://waitfast.netlify.app/embed/waitlist/2b2dc1f9-e05c-41d0-b49e-9c4510180071?theme=dark&size=lg"
               style={{border: 'none', width: '100%', height: '500px'}}
               title="My Awesome Project Waitlist"
               data-testid="iframe-waitlist"
