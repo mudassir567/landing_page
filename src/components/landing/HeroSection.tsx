@@ -35,16 +35,8 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <div className="space-y-4">
-              <WaitlistForm variant="hero" />
-              <Button variant="voice" size="lg" className="mx-auto" data-testid="button-privacy">
-                <Shield className="w-5 h-5" />
-                Learn About Privacy
-              </Button>
-            </div>
-
             {/* Trust indicators */}
-            <div className="flex items-center gap-6 pt-4">
+            <div className="flex items-center gap-6 pt-1">
               <div className="flex items-center gap-2">
                 <Shield className="w-5 h-5 text-primary" />
                 <span className="text-sm text-muted-foreground">100% Private</span>
