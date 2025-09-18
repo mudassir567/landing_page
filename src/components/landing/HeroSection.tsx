@@ -37,7 +37,7 @@ const HeroSection = () => {
 
             <div className="space-y-4">
               <WaitlistForm variant="hero" />
-              <Button variant="voice" size="lg" className="mx-auto">
+              <Button variant="voice" size="lg" className="mx-auto" data-testid="button-privacy">
                 <Shield className="w-5 h-5" />
                 Learn About Privacy
               </Button>

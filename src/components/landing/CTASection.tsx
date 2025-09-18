@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Mic, ArrowRight, Star, Users } from "lucide-react";
+import { Mic, ArrowRight, Star, Users, Mail } from "lucide-react";
+import WaitlistForm from "./WaitlistForm";
 
 const CTASection = () => {
   return (
@@ -25,25 +26,24 @@ const CTASection = () => {
 
             <div className="space-y-6">
               <h2 className="text-4xl lg:text-5xl font-bold">
-                Ready to Transform Your
-                <span className="bg-gradient-primary bg-clip-text text-transparent"> Expense Tracking</span>?
+                Join the Waitlist for
+                <span className="bg-gradient-primary bg-clip-text text-transparent"> Smart Voice Tracking</span>
               </h2>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                Start tracking expenses the smart way. Voice-powered, privacy-first, 
-                and faster than any other method you've tried.
+                Be among the first to experience voice-powered expense tracking. 
+                No forms, no typing - just speak and track your expenses instantly.
               </p>
             </div>
 
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button variant="hero" size="lg" className="group text-lg px-8 py-4">
-                <Mic className="w-6 h-6 group-hover:animate-voice-wave" />
-                Get Started Free
-                <ArrowRight className="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button variant="voice" size="lg" className="text-lg px-8 py-4">
-                Watch 2-Min Demo
-              </Button>
+            {/* Waitlist Form */}
+            <div className="max-w-lg mx-auto">
+              <WaitlistForm variant="cta" className="mb-6" />
+              <div className="flex justify-center">
+                <Button variant="voice" size="lg" className="text-lg px-8 py-4" data-testid="button-demo">
+                  <Star className="w-5 h-5" />
+                  Watch 2-Min Demo
+                </Button>
+              </div>
             </div>
 
             {/* Trust indicators */}
