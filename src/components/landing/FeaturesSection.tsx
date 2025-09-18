@@ -5,13 +5,13 @@ const features = [
   {
     icon: Mic,
     title: "Voice Input Magic",
-    description: "Just say 'Coffee $4.50' and it's logged instantly. No typing, no forms, no hassle.",
+    description: "Just say 'Coffee $4.50' and it's logged instantly. No typing, No forms, No hassle.",
     highlight: "10x Faster"
   },
   {
     icon: Shield,
     title: "Privacy by Design",
-    description: "Your data never leaves your device. No cloud storage, no data mining, no tracking.",
+    description: "Your data, your control —No trackers, No hidden tricks, No data mining.",
     highlight: "100% Private"
   },
   {
@@ -34,8 +34,8 @@ const features = [
   },
   {
     icon: Lock,
-    title: "Secure & Offline",
-    description: "Works completely offline. Your financial data stays on your device, encrypted and safe.",
+    title: "Secure",
+    description: "Works completely on secure channels. Your financial data stays encrypted and safe.",
     highlight: "Bank-Level Security"
   }
 ];

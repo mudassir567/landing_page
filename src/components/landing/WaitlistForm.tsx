@@ -97,7 +97,7 @@ const WaitlistForm = ({ variant = "hero", className = "" }: WaitlistFormProps) =
             name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="Enter your email address"
+            placeholder="Type your email address"
             required
             disabled={isSubmitting}
             className={`pl-10 ${isHeroVariant ? 'h-12 text-base' : 'h-11'}`}
