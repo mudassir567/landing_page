@@ -11,7 +11,7 @@ const features = [
   {
     icon: Shield,
     title: "Privacy by Design",
-    description: "Your data, your control — no trackers, no hidden tricks, no data mining.",
+    description: "Your data never leaves your device. No cloud storage, no data mining, no tracking.",
     highlight: "100% Private"
   },
   {
