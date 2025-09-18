@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Mic, Shield, Zap, Star } from "lucide-react";
 import heroMockup from "@/assets/hero-mockup.jpg";
+import WaitlistForm from "./WaitlistForm";
 
 const HeroSection = () => {
   return (
@@ -34,12 +35,9 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="group">
-                <Mic className="w-5 h-5 group-hover:animate-voice-wave" />
-                Start Tracking Free
-              </Button>
-              <Button variant="voice" size="lg">
+            <div className="space-y-4">
+              <WaitlistForm variant="hero" />
+              <Button variant="voice" size="lg" className="mx-auto">
                 <Shield className="w-5 h-5" />
                 Learn About Privacy
               </Button>
